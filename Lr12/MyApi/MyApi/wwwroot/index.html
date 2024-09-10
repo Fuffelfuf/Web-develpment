@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Currency Tracker</title>
+    <script src="https://cdn.jsdelivr.net/npm/@microsoft/signalr@5.0.13/dist/browser/signalr.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const connection = new signalR.HubConnectionBuilder()
+                .withUrl("/stockHub")
+                .build();
+
+            connection.on("ReceivePrice", function (currency, price) {
+                console.log(`Received price update: ${currency} - $${price}`);
+
+                if (isNaN(price)) {
+                    console.error(`Received invalid price for ${currency}: ${price}`);
+                    return;
+                }
+
+                const formattedPrice = parseFloat(price).toFixed(2);
+
+                const priceElement = document.getElementById(currency);
+                if (priceElement) {
+                    priceElement.innerText = `${currency.toUpperCase()}: $${formattedPrice}`;
+                } else {
+                    const newElement = document.createElement("div");
+                    newElement.id = currency;
+                    newElement.innerText = `${currency.toUpperCase()}: $${formattedPrice}`;
+                    document.getElementById("prices").appendChild(newElement);
+                }
+            });
+
+            connection.start().then(() => {
+                console.log('SignalR connected.');
+            }).catch(function (err) {
+                console.error('SignalR connection error: ', err.toString());
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>Current Currency Prices</h1>
+    <div id="prices">Loading...</div>
+</body>
+</html>

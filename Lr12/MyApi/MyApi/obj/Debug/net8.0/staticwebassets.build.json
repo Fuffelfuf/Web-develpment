@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "QTyuRrTLqhBAkP/to9xNVORlJH2rcktX/OhE4IM9Kn4=",
+  "Source": "MyApi",
+  "BasePath": "_content/MyApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MyApi\\wwwroot",
+      "Source": "MyApi",
+      "ContentRoot": "C:\\Users\\Viktor\\source\\repos\\MyApi\\MyApi\\wwwroot\\",
+      "BasePath": "_content/MyApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Viktor\\source\\repos\\MyApi\\MyApi\\wwwroot\\index.html",
+      "SourceId": "MyApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Viktor\\source\\repos\\MyApi\\MyApi\\wwwroot\\",
+      "BasePath": "_content/MyApi",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}

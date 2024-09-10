@@ -1,0 +1,12 @@
+﻿{
+  "HealthChecks-UI": {
+    "HealthChecks": [
+      {
+        "Name": "API Health Checks",
+        "Uri": "https://localhost:5001/health"
+      }
+    ],
+    "EvaluationTimeInSeconds": 10,
+    "MinimumSecondsBetweenFailureNotifications": 60
+  }
+}

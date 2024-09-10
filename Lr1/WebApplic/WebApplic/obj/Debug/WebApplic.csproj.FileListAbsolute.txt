@@ -1,0 +1,14 @@
+C:\Users\Viktor\source\repos\WebApplic\WebApplic\bin\Debug\WebApplic.exe.config
+C:\Users\Viktor\source\repos\WebApplic\WebApplic\bin\Debug\WebApplic.exe
+C:\Users\Viktor\source\repos\WebApplic\WebApplic\bin\Debug\WebApplic.pdb
+C:\Users\Viktor\source\repos\WebApplic\WebApplic\obj\Debug\WebApplic.csproj.AssemblyReference.cache
+C:\Users\Viktor\source\repos\WebApplic\WebApplic\obj\Debug\WebApplic.csproj.CoreCompileInputs.cache
+C:\Users\Viktor\source\repos\WebApplic\WebApplic\obj\Debug\WebApplic.exe
+C:\Users\Viktor\source\repos\WebApplic\WebApplic\obj\Debug\WebApplic.pdb
+D:\Web-develpment\Lr1\WebApplic\WebApplic\bin\Debug\WebApplic.exe.config
+D:\Web-develpment\Lr1\WebApplic\WebApplic\bin\Debug\WebApplic.exe
+D:\Web-develpment\Lr1\WebApplic\WebApplic\bin\Debug\WebApplic.pdb
+D:\Web-develpment\Lr1\WebApplic\WebApplic\obj\Debug\WebApplic.csproj.AssemblyReference.cache
+D:\Web-develpment\Lr1\WebApplic\WebApplic\obj\Debug\WebApplic.csproj.CoreCompileInputs.cache
+D:\Web-develpment\Lr1\WebApplic\WebApplic\obj\Debug\WebApplic.exe
+D:\Web-develpment\Lr1\WebApplic\WebApplic\obj\Debug\WebApplic.pdb
